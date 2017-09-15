@@ -16,7 +16,7 @@ def extractSingleDocWithDocNums(docname):
             file.write(cleantext.clean_text(str(revision.text)))
 
 if __name__ == '__main__':
-    doc_name = "trwiki.xml"
+    doc_name = "wiki.xml"
 
     file = open("articles_cleaned.txt", "w",    encoding="utf-8")
     dump = mwxml.Dump.from_file(open(doc_name,  "r",    encoding="utf-8"))
