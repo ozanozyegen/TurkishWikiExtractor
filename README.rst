@@ -1,6 +1,6 @@
 Introduction
 ------------
-I have created this to extract turkish wiki dumps for testing NLP algorithms. Other extractors I've tried have character issues and didn't work well with TR Wiki Dump. It doesn't work perfect. But it is good enough to test NLP algorithms.
+I have created this code to extract turkish wiki dumps for testing NLP algorithms. Other extractors I've tried have character issues and didn't work well with TR Wiki Dump. It is not working perfectly. But it is good enough to test NLP algorithms.
 
 This module contains code for manipulating wikipedia dumps available from
 http://download.wikimedia.org/backup-index.html
